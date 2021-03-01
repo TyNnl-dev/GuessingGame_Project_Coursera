@@ -14,9 +14,9 @@ while [[  $guess  -ne $files ]]
 do
 	if [[ $guess  -lt $files ]]
 	then
-		echo "Too low.\nPlease try again."
+		echo -e "Too low.\nPlease try again."
 	else 
-		echo "Too high.\nPlease try again."
+		echo -e "Too high.\nPlease try again."
 	fi
 	ask
 done
